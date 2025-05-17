@@ -25,5 +25,5 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello minik! 👶 ... Blu-u-ue.. Velvet! "}
+    return {"message": "Hello, updated from CI/CD"}
 
